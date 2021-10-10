@@ -1,12 +1,16 @@
 import React from 'react';
 
+import logo from '../assets/logo.png';
+
 import '../styles/header.scss';
 
 function Header()
 {
     return (
         <header>
-            <img src="" alt="Logo da FCamara" />
+            <a href="/" target="_blank">
+                <img src={logo} alt="Logo da FCamara" />
+            </a>
 
             <nav>
                 <ul>
@@ -19,6 +23,8 @@ function Header()
                     <li><a href="/" target="_blank">contato</a></li>
                 </ul>
             </nav>
+
+            <h3><a href="/" target="_blank">PT</a> / <a href="/" target="_blank">EN</a></h3>
         </header>
     );
 }
