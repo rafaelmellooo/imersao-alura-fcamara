@@ -6,7 +6,7 @@ import logo from '../assets/logo.dark.png';
 
 import '../styles/footer.scss';
 
-function Footer() {
+const Footer: React.FC = () => {
     return (
         <footer>
             <section>

@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 import '../styles/header.scss';
 
-function Header() {
+const Header: React.FC = () => {
     return (
         <header>
             <a href="/" target="_blank">
