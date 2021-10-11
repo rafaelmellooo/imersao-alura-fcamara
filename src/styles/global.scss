@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+h1, h2, h3, p, li {
+    font-family: "Metropolis", sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+}
