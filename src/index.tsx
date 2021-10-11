@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { App } from './components/App';
 import reportWebVitals from './reportWebVitals';
 
-import "@fontsource/metropolis";
 import './styles/global.scss';
 
 ReactDOM.render(
