@@ -2,8 +2,7 @@ import React from "react";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Home } from "./Home";
-
-import '../styles/app.scss';
+import { Location } from './Location';
 
 const App: React.FC = () => {
   return (
@@ -11,6 +10,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Home />
+        <Location />
       </main>
       <Footer />
     </>
