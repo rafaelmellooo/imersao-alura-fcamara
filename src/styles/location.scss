@@ -1,0 +1,36 @@
+section#location {
+    background-color: #EF653C;
+    padding: 80px;
+    color: #fff;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 200px;
+    align-items: center;
+    justify-content: center;
+
+    #info {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 40px;
+
+        h2 {
+            font-family: "Metropolis Bold", sans-serif;
+            font-size: 33px;
+        }
+
+        .font-bold {
+            font-size: 23px;
+        }
+
+        .font-medium {
+            font-size: 19px;
+        }
+    }
+
+    #map {
+        img {
+            height: 360px;
+        }
+    }
+}
