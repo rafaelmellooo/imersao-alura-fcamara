@@ -32,6 +32,29 @@ section#home {
             font-size: 16px;
             line-height: 20px;
             width: 400px;
+            
+            span {
+                color: #FE4400;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1080px) {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, auto);
+        text-align: center;
+        
+        #thumb {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+        #text {
+            p {
+                width: 100%;
+            }
         }
     }
 }
