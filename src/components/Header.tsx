@@ -1,17 +1,22 @@
 import React from 'react';
+import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 
 import logo from '../assets/logo.png';
 
 import '../styles/header.scss';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+    setSidebarVisible: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Header: React.FC<HeaderProps> = ({ setSidebarVisible }) => {
     return (
         <header>
             <a href="/" target="_blank">
                 <img src={logo} alt="Logo da FCamara" />
             </a>
 
-            <nav>
+            <nav id="menu">
                 <ul>
                     <li><a href="https://www.fcamara.com.br/quem-somos" target="_blank" rel="noreferrer">quem somos</a></li>
                     <li><a href="/" target="_blank">nossa atuação</a></li>
@@ -23,7 +28,9 @@ const Header: React.FC = () => {
                 </ul>
             </nav>
 
-            <h3><a href="/" target="_blank">PT</a> / <a href="/" target="_blank">EN</a></h3>
+            <h3 id="languages"><a href="/" target="_blank">PT</a> / <a href="/" target="_blank">EN</a></h3>
+
+            <button id="sidebar-icon" type="button" onClick={() => setSidebarVisible(true)}><HiOutlineMenuAlt2 /></button>
         </header>
     );
 }

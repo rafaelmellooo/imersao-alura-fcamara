@@ -33,4 +33,19 @@ section#location {
             height: 360px;
         }
     }
+
+    @media only screen and (max-width: 829px) {
+        padding: 40px;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, auto);
+        text-align: center;
+        grid-gap: 60px;
+
+        #map {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
 }

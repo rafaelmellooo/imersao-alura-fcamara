@@ -31,10 +31,37 @@ section#security {
             grid-gap: 40px;
 
             li {
-                font-family: "Metropolis Medium", sans-serif;
+                font-family: "Metropolis Regular", sans-serif;
                 font-size: 18px;
                 width: 400px;
                 line-height: 20px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1008px) {
+        padding: 40px;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, auto);
+        text-align: center;
+
+        h2 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        #thumb {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+        #info {
+            ul {
+                li {
+                    width: 100%;
+                }
             }
         }
     }

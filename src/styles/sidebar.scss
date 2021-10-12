@@ -1,0 +1,99 @@
+.sidebar-enter {
+    right: -100vw;
+    transition: right 0.2s ease-in;
+}
+
+.sidebar-enter-active {
+    right: 0;
+}
+
+.sidebar-enter-done {
+    right: 0;
+}
+
+.sidebar-exit {
+    right: 0;
+}
+
+.sidebar-exit-active {
+    right: -100vw;
+    transition: right 0.2s ease-out;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    padding: 40px;
+
+    section {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 20px;
+        justify-content: right;
+
+        button {
+            text-align: right;
+            font-size: 67px;
+            color: #4B4FA1;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                list-style: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #FE4400;
+                font-family: "Metropolis Bold", sans-serif;
+                font-size: 24px;
+                text-align: right;
+                width: 200px;
+
+                &:hover {
+                    color: #4B4FA1;
+                }
+            }
+        }
+
+        #languages {
+            font-family: "Metropolis Regular";
+            color: #FE4400;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-align: right;
+
+            a {
+                color: #4B4FA1;
+            }
+        }
+
+        article {
+            display: flex;
+            justify-content: right;
+
+            h4 {
+                display: grid;
+                grid-template-columns: repeat(5, auto);
+                grid-gap: 20px;
+                font-size: 24px;
+                font-family: "Metropolis Bold", sans-serif;
+
+                a {
+                    color: #4B4FA1;
+                    transition: all 0.2s linear;
+
+                    &:hover {
+                        color: #FE4400;
+                    }
+                }
+            }
+        }
+    }
+}

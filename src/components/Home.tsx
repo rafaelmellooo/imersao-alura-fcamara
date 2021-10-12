@@ -12,9 +12,9 @@ const Home: React.FC = () => {
           </article>
 
           <article id="text">
-              <h3>Olá desenvolvedores, gostaríamos de anunciar que:</h3>
+              <h3>Olá, gostaríamos de anunciar que...</h3>
               <h1>ESTAMOS DE VOLTA!</h1>
-              <p>Nossos escritórios de São Paulo e Santos já podem receber nossos queridos desenvolvedores</p>
+              <p>Nossos escritórios de São Paulo e Santos já podem receber nossos <span>#SangueLaranjas</span>!</p>
           </article>
       </section>
   );
