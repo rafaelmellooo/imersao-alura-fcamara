@@ -1,0 +1,60 @@
+section#home {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 50px;
+    padding: 40px;
+
+    #thumb {
+        img {
+            height: 500px;
+        }
+    }
+
+    #text {
+        h3 {
+            font-family: "Metropolis Medium", sans-serif;
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            color: #FE4400;
+            font-family: "Metropolis Black", sans-serif;
+            line-height: 42px;
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 20px;
+            width: 400px;
+            
+            span {
+                color: #FE4400;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1080px) {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, auto);
+        text-align: center;
+        
+        #thumb {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+        #text {
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
