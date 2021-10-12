@@ -1,6 +1,6 @@
-[Preview Desktop](https://github.com/rafaelmellooo/imersao-alura-fcamara/blob/master/screenshots/desktop.png?raw=true)
+[Preview Desktop](https://github.com/rafaelmellooo/imersao-alura-fcamara/blob/master/screenshots/desktop.png)
 
-[Preview Mobile](https://github.com/rafaelmellooo/imersao-alura-fcamara/blob/master/screenshots/mobile.png?raw=true)
+[Preview Mobile](https://github.com/rafaelmellooo/imersao-alura-fcamara/blob/master/screenshots/mobile.png)
 
 Olá, este é um Desafio elaborado pela imersão Dev entre a Alura e a FCamara,
 a proposta foi elaborar uma Landing Page para o sistema de agendamentos de escritórios da FCamara.
