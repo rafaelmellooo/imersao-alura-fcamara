@@ -12,7 +12,7 @@ header {
         height: 20px;
     }
 
-    ul {
+    #menu ul {
         display: flex;
         flex-direction: row;
 
@@ -30,11 +30,29 @@ header {
         }
     }
 
-    h3 {
+    h3#languages {
         font-family: "Metropolis Bold", sans-serif;
         font-weight: 500;
         margin-left: 10px;
         font-size: 18px;
         color: #FE4400;
+    }
+
+    button#sidebar-icon {
+        display: none;
+        font-family: "Metropolis Medium", sans-serif;
+        font-size: 26px;
+    }
+
+    @media screen and (max-width: 1077px) {
+        justify-content: space-between;
+
+        #menu, h3#languages {
+            display: none;
+        }
+
+        button#sidebar-icon {
+            display: block;
+        }
     }
 }
