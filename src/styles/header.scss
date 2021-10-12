@@ -1,4 +1,7 @@
 header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
     padding: 40px;
     width: 100%;
     height: 100px;
@@ -42,6 +45,7 @@ header {
         display: none;
         font-family: "Metropolis Medium", sans-serif;
         font-size: 26px;
+
     }
 
     @media screen and (max-width: 1077px) {
