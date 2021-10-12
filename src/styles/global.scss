@@ -31,6 +31,15 @@ a {
     font-weight: inherit;
 }
 
+button {
+    background: none;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 h1, h2, h3, h4, p, li {
     font-family: "Metropolis Regular", sans-serif;
 }
