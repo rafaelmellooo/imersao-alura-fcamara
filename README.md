@@ -4,8 +4,6 @@
 Olá, este é um Desafio elaborado pela imersão Dev entre a Alura e a FCamara,
 a proposta foi elaborar uma Landing Page para o sistema de agendamentos de escritórios da FCamara.
 
-## A Landing Page está hospedada aqui: https://imersao-alura-fcamara.vercel.app/
-
 Para rodar localmente, siga os seguintes passos:
 
 - Faça um clone do seguinte repositório: https://github.com/rafaelmellooo/imersao-alura-fcamara.git ou faça o download do Zip: https://github.com/rafaelmellooo/imersao-alura-fcamara/archive/refs/heads/master.zip
